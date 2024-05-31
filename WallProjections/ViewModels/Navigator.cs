@@ -310,16 +310,17 @@ public sealed class Navigator : ViewModelBase, INavigator
         {
             var currentWindow = MainWindow;
 
-            if (showSecondary)
-                OpenSecondaryWindow();
+            newWindow.Show();
+            MainWindow = newWindow;
+
+            if (showSecondary) OpenSecondaryWindow();
             else
             {
                 _secondaryScreen.window.ShowInTaskbar = false;
                 _secondaryScreen.window.Hide();
             }
 
-            newWindow.Show();
-            MainWindow = newWindow;
+            newWindow.Activate();
 
             currentWindow?.CloseAndDispose();
         }
