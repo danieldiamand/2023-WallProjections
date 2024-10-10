@@ -10,6 +10,13 @@ to display detailed, rich information about the touched area.
 > Find the complete documentation
 > here: [spe-uob.github.io/2023-WallProjections/](https://spe-uob.github.io/2023-WallProjections/)
 
+> [!Note]
+> This is a mirror of the original repository, managed by the University of Bristol's 
+> [Software Engineering Project](https://github.com/spe-uob) organization, 
+> which can be found [here](https://github.com/spe-uob/2023-WallProjections). 
+> 
+> _Keep in mind that access might be restricted due to university policies._
+> 
 ## Table of Contents
 
 <!-- TOC -->
