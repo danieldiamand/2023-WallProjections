@@ -6,6 +6,8 @@
 This is a project in collaboration with Bristol Museums, to allow 3D printed replicas of artefacts to be interacted with
 to display detailed, rich information about the touched area.
 
+![Demo](demo.gif)
+
 > [!Important]
 > Find the complete documentation
 > here: [spe-uob.github.io/2023-WallProjections/](https://spe-uob.github.io/2023-WallProjections/)
